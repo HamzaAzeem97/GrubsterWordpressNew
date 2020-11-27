@@ -19,14 +19,14 @@
  */
 
 // ** MySQL settings - You can get this info from your web host ** //
-/** The name of the database for WordPress */
-define( 'DB_NAME', 'grubstar_wordpress' );
 
-/** MySQL database username */
-define( 'DB_USER', 'root' );
+// define( 'DB_NAME', 'grubstar_wordpress' );
+// define( 'DB_USER', 'root' );
+// define( 'DB_PASSWORD', '' );
 
-/** MySQL database password */
-define( 'DB_PASSWORD', '' );
+define( 'DB_NAME', 'grubster_wordpress' );
+define( 'DB_USER', 'grubster_admin' );
+define( 'DB_PASSWORD', 'G619F4e04@' );
 
 /** MySQL hostname */
 define( 'DB_HOST', 'localhost' );
