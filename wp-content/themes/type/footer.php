@@ -1,81 +1,66 @@
 <?php
-/**
- * The template for displaying the footer.
- *
- * Contains the closing of the #content div and all content after.
- *
- * @link https://developer.wordpress.org/themes/basics/template-files/#template-template-parts
- *
- * @package Type
- * @since Type 1.0
- */
+   /**
+    * The template for displaying the footer.
+    *
+    * Contains the closing of the #content div and all content after.
+    *
+    * @link https://developer.wordpress.org/themes/basics/template-files/#template-template-parts
+    *
+    * @package Type
+    * @since Type 1.0
+    */
+   
+   ?>
+</div><!-- .inside -->
+</div><!-- .container -->
+</div><!-- #content -->
+<footer id="colophon" class="site-footer" role="contentinfo">
+   <div class="clearfix-footer">
+      <div class="w-70">
+         <h4 class="grubstar-h4 pseudo_border2 ">Get in Touch</h4>
+         <p class="footer-p">Please fill out the form below to send us an email and we will get back to you as soon as possible.
+         <form>
+            <div class="">
+               <div class="clearfix-footer">
+                  <div class="col-50-left">
+                     <input class="form-class" type="text" id="fname" name="fname" placeholder="Name">
+                  </div>
+                  <div class="col-50-right">
+                     <input class="form-class" type="email" id="email" name="email" placeholder="Email">
+                  </div>
+               </div>
+               <div class="">
+                  <textarea class="form-class form-message" type="text" id="message" name="message" placeholder="Message"></textarea>
+               </div>
+               <div class="">
+                  <input class="form-button-class form-button" type="button" value="SEND MESSAGE">
+               </div>
+            </div>
+         </form>
+      </div>
+      <div class="w-30">
+         <p class="footer-contact">Contact Info</p>
+         <div class="MuiGrid-root footer-col1 footer-center MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-12 MuiGrid-grid-md-12 MuiGrid-grid-lg-4">
 
-?>
-			</div><!-- .inside -->
-		</div><!-- .container -->
-	</div><!-- #content -->
+            <p class="MuiTypography-root footer-justify MuiTypography-body1 MuiTypography-colorTextSecondary" style="display: flex; align-items: center; margin-bottom: 10px; color: rgb(255, 255, 255); font-weight: 300;">
 
-	<footer id="colophon" class="site-footer" role="contentinfo">
-		
-		<?php if ( is_active_sidebar( 'footer-1' ) || is_active_sidebar( 'footer-2' ) || is_active_sidebar( 'footer-3' ) ) : ?>
-			<div class="widget-area" role="complementary">
-				<div class="container">
-					<div class="row">
-						<div class="col-4 col-md-4" id="footer-area-1">
-							<?php if ( is_active_sidebar( 'footer-1' ) ) {
-								dynamic_sidebar( 'footer-1' );
-							} // end footer widget area 1 ?>
-						</div>	
-						<div class="col-4 col-md-4" id="footer-area-2">
-							<?php if ( is_active_sidebar( 'footer-2' ) ) {
-								dynamic_sidebar( 'footer-2' );
-							} // end footer widget area 2 ?>
-						</div>
-						<div class="col-4 col-md-4" id="footer-area-3">
-							<?php if ( is_active_sidebar( 'footer-3' ) ) {
-								dynamic_sidebar( 'footer-3' );
-							} // end footer widget area 3 ?>
-						</div>
-					</div>
-				</div><!-- .container -->
-			</div><!-- .widget-area -->
-		<?php endif; ?>
-		
-		<?php if ( is_active_sidebar( 'footer-4' ) ) : ?>
-			<div class="widget-area" role="complementary">
-				<div class="container">
-					<div class="row">
-						<div class="col-12 col-sm-12" id="footer-area-4">
-							<?php if ( is_active_sidebar( 'footer-4' ) ) {
-								dynamic_sidebar( 'footer-4' );
-							} // end footer widget area 4 ?>
-						</div>	
-					</div>
-				</div><!-- .container -->
-			</div><!-- .widget-area -->
-		<?php endif; ?>
-		
-		<div class="footer-copy">
-			<div class="container">
-				<div class="row">
-					<div class="col-6 col-sm-12">
-						<div class="site-credits"><?php type_credits(); ?></div>
-					</div>
-					<div class="col-6 col-sm-12">
-						<div class="site-info">
-							<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'type' ) ); ?>"><?php printf( __( 'Powered by %s', 'type' ), 'WordPress' ); ?></a>
-							<span class="sep"> / </span>
-							<a href="<?php echo esc_url( __( 'https://www.designlabthemes.com/', 'type' ) ); ?>" rel="nofollow"><?php printf( __( 'Theme by %s', 'type' ), 'Design Lab' ); ?></a>
-						</div><!-- .site-info -->
-					</div>
-				</div>
-			</div><!-- .container -->
-		</div><!-- .footer-copy -->
-		
-	</footer><!-- #colophon -->
-</div><!-- #page -->
+               <span style="padding-left: 0px;"><i style="padding-right: 8px;" class="fa fa-map-marker"></i> Address</span>
+            </p>
+            <p class="MuiTypography-root MuiTypography-body1 MuiTypography-colorTextSecondary" style="margin-bottom: 30px; color: rgb(255, 255, 255); font-weight: 100;">Grubsters Comic, Headquarters in South Florida, USA</p>
+            <p class="MuiTypography-root footer-justify MuiTypography-body1 MuiTypography-colorTextSecondary" style="display: flex; align-items: center; margin-bottom: 10px; color: rgb(255, 255, 255); font-weight: 300;">
 
+               <span style="padding-left: 0px;"><i style="padding-right: 8px;" class="fa fa-phone"></i> Phone</span>
+            </p>
+            <p class="MuiTypography-root MuiTypography-body1 MuiTypography-colorTextSecondary" style="margin-bottom: 30px; color: rgb(255, 255, 255); font-weight: 100;">786-285-5881</p>
+            <p class="MuiTypography-root footer-justify MuiTypography-body1 MuiTypography-colorTextSecondary" style="display: flex; align-items: center; margin-bottom: 10px; color: rgb(255, 255, 255); font-weight: 300;">
+
+               <span style="padding-left: 0px;"><i style="padding-right: 8px;" class="fa fa-envelope"></i> Email</span>
+            </p>
+            <p class="MuiTypography-root MuiTypography-body1 MuiTypography-colorTextSecondary" style="margin-bottom: 30px; color: rgb(255, 255, 255); font-weight: 100;">GRUBSTERS@GRUBSTERSCOMIC.COM</p>
+         </div>
+      </div>
+   </div>
+</footer>
 <?php wp_footer(); ?>
-
 </body>
 </html>
