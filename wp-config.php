@@ -20,13 +20,13 @@
 
 // ** MySQL settings - You can get this info from your web host ** //
 
-define( 'DB_NAME', 'grubster_wordpress' );
-define( 'DB_USER', 'root' );
-define( 'DB_PASSWORD', '' );
-
 //define( 'DB_NAME', 'grubster_wordpress' );
-//define( 'DB_USER', 'grubster_admin' );
-//define( 'DB_PASSWORD', 'G619F4e04@' );
+//define( 'DB_USER', 'root' );
+//define( 'DB_PASSWORD', '' );
+
+define( 'DB_NAME', 'grubster_wordpress' );
+define( 'DB_USER', 'grubster_admin' );
+define( 'DB_PASSWORD', 'G619F4e04@&(9' );
 
 /** MySQL hostname */
 define( 'DB_HOST', 'localhost' );
