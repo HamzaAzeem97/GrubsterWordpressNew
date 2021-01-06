@@ -14,7 +14,7 @@
 </div><!-- .inside -->
 </div><!-- .container -->
 </div><!-- #content -->
-<footer id="colophon" class="site-footer" role="contentinfo">
+<footer style="display:none;" id="colophon" class="site-footer" role="contentinfo">
    <div class="clearfix-footer">
       <div class="w-70">
          <h4 class="grubstar-h4 pseudo_border2 ">Get in Touch</h4>
